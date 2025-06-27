@@ -66,6 +66,9 @@
     },
     {
       "path": "./packages/webdriver-testkit"
+    },
+    {
+      "path": "./packages/burp-converter"
     }
   ]
 }

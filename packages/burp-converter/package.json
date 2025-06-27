@@ -1,0 +1,26 @@
+{
+  "name": "@seleniumhq/burp-converter",
+  "version": "4.0.13",
+  "private": true,
+  "description": "Selenium IDE plugin that annotates recorded commands",
+  "author": "SeleniumHQ",
+  "homepage": "http://github.com/SeleniumHQ/selenium-ide",
+  "license": "Apache-2.0",
+  "main": "dist/index.js",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist tsconfig.tsbuildinfo node_modules",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "@seleniumhq/side-api": "4.0.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeleniumHQ/selenium-ide.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SeleniumHQ/selenium-ide/issues"
+  }
+}
