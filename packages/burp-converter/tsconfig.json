@@ -3,7 +3,8 @@
   "compilerOptions": {
     "baseUrl": "./src",
     "rootDir": "src",
-    "outDir": "dist"
+    "outDir": "dist",
+    "module": "commonjs"
   },
   "include": ["src/**/*.ts"],
   "exclude": ["**/__mocks__"],

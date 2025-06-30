@@ -18,9 +18,9 @@
     "watch": "tsc --watch"
   },
   "dependencies": {
-    "side-code-export": "^4.0.11"
+    "side-code-export": "workspace:^4.0.13"
   },
   "devDependencies": {
-    "@seleniumhq/side-model": "4.0.13"
+    "@seleniumhq/side-model": "workspace:^4.0.13"
   }
 }

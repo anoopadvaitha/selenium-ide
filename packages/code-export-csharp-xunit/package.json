@@ -18,11 +18,11 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@seleniumhq/code-export-csharp-commons": "4.0.13",
-    "side-code-export": "^4.0.11"
+    "@seleniumhq/code-export-csharp-commons": "workspace:^4.0.13",
+    "side-code-export": "workspace:^4.0.13"
   },
   "devDependencies": {
-    "@seleniumhq/side-model": "4.0.13"
+    "@seleniumhq/side-model": "workspace:^4.0.13"
   },
   "gitHead": "f58e327e7616e23a3e926e4b80cf9952164e5744"
 }

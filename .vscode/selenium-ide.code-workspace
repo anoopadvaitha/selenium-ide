@@ -21,7 +21,8 @@
     { "path": "../packages/side-runner" },
     { "path": "../packages/side-runtime" },
     { "path": "../packages/side-testkit" },
-    { "path": "../packages/webdriver-testkit" }
+    { "path": "../packages/webdriver-testkit" },
+    { "path": "../packages/burp-converter" }
   ],
   "settings": {
     "files.eol": "\n",

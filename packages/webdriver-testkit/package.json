@@ -30,8 +30,8 @@
     "selenium-webdriver": "^4.25.0"
   },
   "dependencies": {
-    "@seleniumhq/browser-info": "4.0.13",
-    "@seleniumhq/get-driver": "4.0.13",
+    "@seleniumhq/browser-info": "workspace:^4.0.13",
+    "@seleniumhq/get-driver": "workspace:^4.0.13",
     "fs-extra": "^8.1.0"
   }
 }

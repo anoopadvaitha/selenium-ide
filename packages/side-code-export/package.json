@@ -20,8 +20,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@seleniumhq/side-model": "4.0.13",
-    "@seleniumhq/side-runtime": "4.0.13",
+    "@seleniumhq/side-model": "workspace:^4.0.13",
+    "@seleniumhq/side-runtime": "workspace:^4.0.13",
     "commander": "^9.4.0"
   },
   "gitHead": "f58e327e7616e23a3e926e4b80cf9952164e5744"

@@ -3,18 +3,16 @@
   "version": "4.0.13",
   "private": true,
   "description": "Selenium IDE plugin that annotates recorded commands",
-  "author": "SeleniumHQ",
+  "author": "Anoop Chandra",
   "homepage": "http://github.com/SeleniumHQ/selenium-ide",
   "license": "Apache-2.0",
-  "main": "dist/index.js",
-  "files": ["dist"],
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf dist tsconfig.tsbuildinfo node_modules",
     "watch": "tsc --watch"
   },
   "devDependencies": {
-    "@seleniumhq/side-api": "4.0.13"
+    "@seleniumhq/side-api": "workspace:^4.0.13"
   },
   "repository": {
     "type": "git",
