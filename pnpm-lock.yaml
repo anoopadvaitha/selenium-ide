@@ -131,79 +131,79 @@ importers:
   packages/burp-converter:
     devDependencies:
       '@seleniumhq/side-api':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-api
 
   packages/code-export-csharp-commons:
     dependencies:
       side-code-export:
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-code-export
     devDependencies:
       '@seleniumhq/side-model':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-model
 
   packages/code-export-csharp-nunit:
     dependencies:
       '@seleniumhq/code-export-csharp-commons':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../code-export-csharp-commons
       side-code-export:
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-code-export
 
   packages/code-export-csharp-xunit:
     dependencies:
       '@seleniumhq/code-export-csharp-commons':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../code-export-csharp-commons
       side-code-export:
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-code-export
     devDependencies:
       '@seleniumhq/side-model':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-model
 
   packages/code-export-java-junit:
     dependencies:
       side-code-export:
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-code-export
     devDependencies:
       '@seleniumhq/side-model':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-model
 
   packages/code-export-javascript-mocha:
     dependencies:
       side-code-export:
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-code-export
     devDependencies:
       '@seleniumhq/side-model':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-model
 
   packages/code-export-python-pytest:
     dependencies:
       side-code-export:
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-code-export
     devDependencies:
       '@seleniumhq/side-model':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-model
 
   packages/code-export-ruby-rspec:
     dependencies:
       side-code-export:
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-code-export
     devDependencies:
       '@seleniumhq/side-model':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-model
 
   packages/get-driver:
@@ -252,37 +252,37 @@ importers:
         specifier: ^5.15.13
         version: 5.15.13(@emotion/react@11.11.1(@types/react@18.2.15)(react@18.2.0))(@emotion/styled@11.11.0(@emotion/react@11.11.1(@types/react@18.2.15)(react@18.2.0))(@types/react@18.2.15)(react@18.2.0))(@types/react@18.2.15)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@seleniumhq/code-export-csharp-nunit':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../code-export-csharp-nunit
       '@seleniumhq/code-export-csharp-xunit':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../code-export-csharp-xunit
       '@seleniumhq/code-export-java-junit':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../code-export-java-junit
       '@seleniumhq/code-export-javascript-mocha':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../code-export-javascript-mocha
       '@seleniumhq/code-export-python-pytest':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../code-export-python-pytest
       '@seleniumhq/code-export-ruby-rspec':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../code-export-ruby-rspec
       '@seleniumhq/get-driver':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../get-driver
       '@seleniumhq/side-api':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-api
       '@seleniumhq/side-commons':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-commons
       '@seleniumhq/side-model':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-model
       '@seleniumhq/side-runtime':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-runtime
       dnd-core:
         specifier: ^16.0.1
@@ -333,7 +333,7 @@ importers:
         specifier: ^4.25.0
         version: 4.26.0
       side-code-export:
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-code-export
       v8-compile-cache:
         specifier: ^2.3.0
@@ -343,7 +343,7 @@ importers:
         specifier: ^1.1.1
         version: 1.1.3
       '@seleniumhq/browser-info':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../browser-info
       '@types/copy-webpack-plugin':
         specifier: 8.0.1
@@ -430,16 +430,16 @@ importers:
   packages/side-api:
     dependencies:
       '@seleniumhq/browser-info':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../browser-info
       '@seleniumhq/get-driver':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../get-driver
       '@seleniumhq/side-model':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-model
       '@seleniumhq/side-runtime':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-runtime
       lodash:
         specifier: ^4.17.21
@@ -455,10 +455,10 @@ importers:
   packages/side-cli:
     dependencies:
       '@seleniumhq/side-model':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-model
       '@seleniumhq/side-runtime':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-runtime
       ink:
         specifier: ^4.4.1
@@ -480,10 +480,10 @@ importers:
   packages/side-code-export:
     dependencies:
       '@seleniumhq/side-model':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-model
       '@seleniumhq/side-runtime':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-runtime
       commander:
         specifier: ^9.4.0
@@ -494,20 +494,20 @@ importers:
   packages/side-example-suite:
     dependencies:
       '@seleniumhq/code-export-python-pytest':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../code-export-python-pytest
       side-code-export:
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-code-export
     devDependencies:
       '@seleniumhq/side-api':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-api
 
   packages/side-migrate:
     dependencies:
       '@seleniumhq/side-model':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-model
       unescape:
         specifier: ^1.0.1
@@ -531,10 +531,10 @@ importers:
   packages/side-runner:
     dependencies:
       '@seleniumhq/side-model':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-model
       '@seleniumhq/side-runtime':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-runtime
       commander:
         specifier: ^11.0.0
@@ -586,10 +586,10 @@ importers:
   packages/side-runtime:
     dependencies:
       '@seleniumhq/side-commons':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-commons
       '@seleniumhq/side-model':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-model
       '@types/selenium-webdriver':
         specifier: ^4.1.26
@@ -599,13 +599,13 @@ importers:
         version: 4.26.0
     devDependencies:
       '@seleniumhq/get-driver':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../get-driver
       '@seleniumhq/side-testkit':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../side-testkit
       '@seleniumhq/webdriver-testkit':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../webdriver-testkit
 
   packages/side-test-metaparser: {}
@@ -623,10 +623,10 @@ importers:
   packages/webdriver-testkit:
     dependencies:
       '@seleniumhq/browser-info':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../browser-info
       '@seleniumhq/get-driver':
-        specifier: workspace:5.4.0-armor
+        specifier: workspace:6.4.1-mod
         version: link:../get-driver
       fs-extra:
         specifier: ^8.1.0
