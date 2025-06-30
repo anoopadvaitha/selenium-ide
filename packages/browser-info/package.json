@@ -1,6 +1,6 @@
 {
   "name": "@seleniumhq/browser-info",
-  "version": "4.0.13",
+  "version": "6.4.1-mod",
   "private": false,
   "description": "Get information about installed browsers",
   "author": "Tomer <tomer@corevo.io>",

@@ -1,6 +1,6 @@
 {
   "name": "@seleniumhq/side-commons",
-  "version": "4.0.13",
+  "version": "6.4.1-mod",
   "private": false,
   "description": "Selenium IDE common utilities",
   "author": "Tomer <tomer@corevo.io>",

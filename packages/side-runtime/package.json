@@ -1,6 +1,6 @@
 {
   "name": "@seleniumhq/side-runtime",
-  "version": "4.0.13",
+  "version": "6.4.1-mod",
   "private": false,
   "description": "Selenium IDE playback and execution",
   "author": "Tomer <tomer@corevo.io>",
@@ -25,13 +25,13 @@
     "url": "https://github.com/SeleniumHQ/selenium-ide/issues"
   },
   "devDependencies": {
-    "@seleniumhq/get-driver": "workspace:^4.0.13",
-    "@seleniumhq/side-testkit": "workspace:^4.0.13",
-    "@seleniumhq/webdriver-testkit": "workspace:^4.0.13"
+    "@seleniumhq/get-driver": "workspace:6.4.1-mod",
+    "@seleniumhq/side-testkit": "workspace:6.4.1-mod",
+    "@seleniumhq/webdriver-testkit": "workspace:6.4.1-mod"
   },
   "dependencies": {
-    "@seleniumhq/side-commons": "workspace:^4.0.13",
-    "@seleniumhq/side-model": "workspace:^4.0.13",
+    "@seleniumhq/side-commons": "workspace:6.4.1-mod",
+    "@seleniumhq/side-model": "workspace:6.4.1-mod",
     "@types/selenium-webdriver": "^4.1.26",
     "selenium-webdriver": "^4.25.0"
   },

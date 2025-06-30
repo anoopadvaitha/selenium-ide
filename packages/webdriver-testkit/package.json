@@ -1,6 +1,6 @@
 {
   "name": "@seleniumhq/webdriver-testkit",
-  "version": "4.0.13",
+  "version": "6.4.1-mod",
   "private": true,
   "description": "Manage test driver installation",
   "author": "Tomer <tomer@corevo.io>",
@@ -30,8 +30,8 @@
     "selenium-webdriver": "^4.25.0"
   },
   "dependencies": {
-    "@seleniumhq/browser-info": "workspace:^4.0.13",
-    "@seleniumhq/get-driver": "workspace:^4.0.13",
+    "@seleniumhq/browser-info": "workspace:6.4.1-mod",
+    "@seleniumhq/get-driver": "workspace:6.4.1-mod",
     "fs-extra": "^8.1.0"
   }
 }

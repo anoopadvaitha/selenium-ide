@@ -1,6 +1,6 @@
 {
   "name": "@seleniumhq/burp-converter",
-  "version": "4.0.13",
+  "version": "6.4.1-mod",
   "private": true,
   "description": "Selenium IDE plugin that annotates recorded commands",
   "author": "Anoop Chandra",
@@ -12,7 +12,7 @@
     "watch": "tsc --watch"
   },
   "devDependencies": {
-    "@seleniumhq/side-api": "workspace:^4.0.13"
+    "@seleniumhq/side-api": "workspace:6.4.1-mod"
   },
   "repository": {
     "type": "git",

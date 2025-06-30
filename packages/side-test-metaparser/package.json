@@ -1,6 +1,6 @@
 {
   "name": "@seleniumhq/side-test-metaparser",
-  "version": "4.0.13",
+  "version": "6.4.1-mod",
   "private": false,
   "description": "Reads code to JSON and back",
   "author": "Todd Tarsi <tarsitodd@gmail.com>",
