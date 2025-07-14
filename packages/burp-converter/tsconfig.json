@@ -3,12 +3,21 @@
   "compilerOptions": {
     "baseUrl": "./src",
     "rootDir": "src",
-    "outDir": "dist",
-    "module": "commonjs"
+    "outDir": "dist"
   },
-  "include": ["src/**/*.ts"],
-  "exclude": ["**/__mocks__"],
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "**/__mocks__"
+  ],
   "references": [
+    {
+      "path": "../code-export-python-pytest"
+    },
+    {
+      "path": "../side-code-export"
+    },
     {
       "path": "../side-api"
     }

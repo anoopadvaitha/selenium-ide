@@ -10,7 +10,8 @@
     },
     "outDir": "build",
     "rootDir": "src",
-    "types": ["electron", "webpack-env"]
+    "types": ["electron", "webpack-env"],
+    "allowJs": true
   },
   "references": [
     {

@@ -5,6 +5,8 @@ import { readFile } from 'fs/promises'
 import BaseController from '../Base'
 import path from 'node:path'
 
+// const burpPluginPath = require.resolve("@seleniumhq/burp-converter")
+
 export type PluginMessageHandler = (
   event: Electron.IpcMainEvent,
   ...args: any[]
@@ -19,6 +21,12 @@ export default class PluginsController extends BaseController {
     const systemPlugins = this.session.store.get('plugins')
     const projectPath = this.session.projects.filepath as string
     const activeProject = await this.session.projects.getActive()
+    const burpPluginPath = __non_webpack_require__.resolve("@seleniumhq/burp-converter")
+    const burpPackageDir = path.resolve(path.dirname(burpPluginPath))
+    console.log('Burp package dir:', burpPackageDir)
+    if (!systemPlugins.includes(burpPackageDir)) {
+      systemPlugins.push(burpPackageDir)
+    }
     return systemPlugins.concat(
       correctPluginPaths(projectPath, activeProject.plugins)
     )
@@ -26,6 +34,8 @@ export default class PluginsController extends BaseController {
 
   async getPreloads() {
     const plugins = await this.list()
+    // Get path of the imported module.
+
     const preloadPaths = plugins.map((pluginPath) => {
       const actualPluginPath = __non_webpack_require__.resolve(pluginPath)
       const preloadPath = path.join(

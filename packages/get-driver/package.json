@@ -1,6 +1,6 @@
 {
   "name": "@seleniumhq/get-driver",
-  "version": "6.4.1-mod",
+  "version": "6.4.2-mod",
   "private": false,
   "description": "Download browser drivers",
   "author": "Tomer <tomer@corevo.io>",

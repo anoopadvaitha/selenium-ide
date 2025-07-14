@@ -1,6 +1,6 @@
 {
   "name": "side-code-export",
-  "version": "6.4.1-mod",
+  "version": "6.4.2-mod",
   "description": "Utils for code export from Selenium IDE",
   "repository": "https://github.com/SeleniumHQ/selenium-ide",
   "keywords": [
@@ -20,8 +20,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@seleniumhq/side-model": "workspace:6.4.1-mod",
-    "@seleniumhq/side-runtime": "workspace:6.4.1-mod",
+    "@seleniumhq/side-model": "workspace:6.4.2-mod",
+    "@seleniumhq/side-runtime": "workspace:6.4.2-mod",
     "commander": "^9.4.0"
   },
   "gitHead": "f58e327e7616e23a3e926e4b80cf9952164e5744"
